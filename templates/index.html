@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tholde | Portfolio</title>
+    <link rel="shortcut icon" href="{% static 'image/icon.png' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="{% static 'css/boxicons.min.css' %}" rel="stylesheet">
+</head>
+<body>
+{% include 'header.html' %}
+{% include 'home.html' %}
+{% include 'about.html' %}
+{% include 'service.html' %}
+{% include 'skills.html' %}
+</body>
+<script src="{% static 'js/script.js' %}"></script>
+</html>
